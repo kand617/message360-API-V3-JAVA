@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 public class CreateListBouncesInput 
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5139268353286272266L;
+    private static final long serialVersionUID = 5726820105779904822L;
     private String responseType = "json";
     private String offset;
     private String limit;

@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 public class CreateDeleteSpamInput 
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5225486165395024567L;
+    private static final long serialVersionUID = 4987219912648150722L;
     private String email;
     private String responseType = "json";
     /** GETTER

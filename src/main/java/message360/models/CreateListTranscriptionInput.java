@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 public class CreateListTranscriptionInput 
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5231767006657896602L;
+    private static final long serialVersionUID = 5306844840534165591L;
     private Integer page;
     private Integer pageSize;
     private StatusEnum status;

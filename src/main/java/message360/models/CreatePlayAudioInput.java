@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 public class CreatePlayAudioInput 
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5446446433216612491L;
+    private static final long serialVersionUID = 5479510122715333241L;
     private String callSid;
     private String audioUrl;
     private Integer length;

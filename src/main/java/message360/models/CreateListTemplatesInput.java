@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 public class CreateListTemplatesInput 
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5565194549339833448L;
+    private static final long serialVersionUID = 4632470871855048811L;
     private String type = "authorization";
     private Integer page;
     private Integer pagesize = 10;
