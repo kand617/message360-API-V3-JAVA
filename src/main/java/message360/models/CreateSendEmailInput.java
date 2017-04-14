@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 public class CreateSendEmailInput 
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5123052442478746233L;
+    private static final long serialVersionUID = 5653557220064274211L;
     private String to;
     private String from;
     private SendEmailAsEnum type = SendEmailAsEnum.HTML;

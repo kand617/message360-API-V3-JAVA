@@ -78,7 +78,7 @@ public class NumberVerificationController extends BaseController {
 
         //process template parameters
         APIHelper.appendUrlWithTemplateParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5691216688814649325L;
+            private static final long serialVersionUID = 5230050006870739959L;
             {
                     put( "ResponseType", input.getResponseType() );
             }});
@@ -87,7 +87,7 @@ public class NumberVerificationController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5129107106332900219L;
+            private static final long serialVersionUID = 4873608684987938200L;
             {
                     put( "user-agent", "message360-api" );
             }
@@ -95,7 +95,7 @@ public class NumberVerificationController extends BaseController {
 
         //load all fields for the outgoing API request
         Map<String, Object> _parameters = new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5391724215573615183L;
+            private static final long serialVersionUID = 5324790782651050870L;
             {
                     put( "phonenumber", input.getPhonenumber() );
                     put( "type", input.getType() );
